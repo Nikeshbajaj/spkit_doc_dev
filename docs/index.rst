@@ -52,26 +52,6 @@ Signal Processing Toolkit - Documentation!
  
 
 
-```{toctree}
-:caption: Getting started
-:hidden:
-
-installation
-```
-
-
-
-
-```{toctree}
-:maxdepth: 4
-:hidden:
-
-informationtheory
-dispersion_entropy
-atar_algo
-ica_artifact_algo
-```
-
 
 
 
@@ -84,7 +64,9 @@ Getting started
    
    installation
    
-
+.. toctree::
+   :hidden:
+   customisation/index
 
 Information Theory
 ----------   
