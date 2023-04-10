@@ -79,15 +79,21 @@ Getting started
 ----------
 
 .. toctree::
+   :caption: Getting started
    :maxdepth: 1
+   :hidden:
    
    installation
    
+
+
 Information Theory
 ----------   
 
 .. toctree::
+   :caption: Information Theory
    :maxdepth: 3
+   :hidden:
    
    informationtheory
 
@@ -97,6 +103,7 @@ Dispersion Entropy (time-series, physiological signals)
 
 .. toctree::
    :maxdepth: 3
+   :hidden:
    
    dispersion_entropy
    
