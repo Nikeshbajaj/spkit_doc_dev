@@ -64,8 +64,13 @@ Getting started
    
    installation
    
+
+customisation
+----------
+
 .. toctree::
    :hidden:
+   
    customisation/index
 
 Information Theory
