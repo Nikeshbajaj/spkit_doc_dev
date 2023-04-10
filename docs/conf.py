@@ -152,3 +152,13 @@ if FONT_AWESOME_TESTING:
             "class": "fa-brands fa-solid fa-github fa-2x",
         },
     ]
+
+
+    html_theme_options["light_css_variables"] = [
+            {
+            "font-stack": "Arial, sans-serif",
+            "font-stack--monospace": "Courier, monospace",
+        },
+    ]
+
+    
