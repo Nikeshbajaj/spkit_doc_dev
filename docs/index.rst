@@ -81,7 +81,6 @@ Getting started
 .. toctree::
    :caption: Getting started
    :maxdepth: 1
-   :hidden:
    
    installation
    
@@ -93,10 +92,9 @@ Information Theory
 .. toctree::
    :caption: Information Theory
    :maxdepth: 3
-   :hidden:
    
-   informationtheory
-   dispersion_entropy
+   InformationTheory/informationtheory
+   InformationTheory/dispersion_entropy
 
 .. Dispersion Entropy (time-series, physiological signals)
 .. ----------   
@@ -110,11 +108,18 @@ EEG Artifact Removal Algorithms
 ----------   
 
 .. toctree::
+   :caption: EEG Artifact Removal Algorithms
    :maxdepth: 4
    
-   atar_algo
-   ica_artifact_algo
-  
+   EEG/atar_algo
+   EEG/ica_artifact_algo
+
+.. toctree::
+   :caption: EEG Topographic Maps (Spatio-Temporal/Spectral)
+   :maxdepth: 2
+   
+   EEG/eeg_topog
+
 
 Multi-Electrode Arrays Processing: MEA
 ---------------------------------- 
@@ -122,7 +127,7 @@ Multi-Electrode Arrays Processing: MEA
 .. toctree::
    :maxdepth: 3
    
-   mea
+   MEA/mea
 
 
   
@@ -132,7 +137,7 @@ Complex Continuous Wavelet Transform
 .. toctree::
    :maxdepth: 3
    
-   cwt
+   Wavelet/cwt
 
 
 Ramanujan Filter Banks for Period Estimation
@@ -141,7 +146,7 @@ Ramanujan Filter Banks for Period Estimation
 .. toctree::
    :maxdepth: 3
    
-   ramanujan_methods
+   Processing/ramanujan_methods
 
 
 Analysis and Synthesis Models
@@ -150,7 +155,7 @@ Analysis and Synthesis Models
 .. toctree::
    :maxdepth: 3
    
-   analysis_synthesis_models
+   Processing/analysis_synthesis_models
 
 
 .. DFT and STFT for Analysis and Synthesis of signals
@@ -164,7 +169,7 @@ Fractional Fourier Transform
 .. toctree::
    :maxdepth: 3
    
-   fractional_fourier
+   Processing/fractional_fourier
 
 
 
@@ -174,7 +179,7 @@ Filtering
 .. toctree::
    :maxdepth: 2
    
-   filtering
+   Processing/filtering
 
 
 Wavelet Filtering
@@ -183,8 +188,7 @@ Wavelet Filtering
 .. toctree::
    :maxdepth: 2
    
-   wavelet_filtering
-
+   Wavelet/wavelet_filtering
 
 
 Independent Component Analysis
@@ -193,17 +197,7 @@ Independent Component Analysis
 .. toctree::
    :maxdepth: 2
    
-   ica
-   
-   
-EEG Topographic Maps (Spatio-Temporal/Spectral)
----------- 
-
-.. toctree::
-   :maxdepth: 2
-   
-   eeg_topog
-
+   Processing/ica
 
 
 Machine Learning
@@ -212,7 +206,7 @@ Machine Learning
 .. toctree::
    :maxdepth: 3
    
-   machinelearning
+   ML/machinelearning
 
 
 Basic-utilities
@@ -238,7 +232,7 @@ API Doc
 .. toctree::
    :maxdepth: 3
    
-   api
+   APIs/api
 
 ChangeLog
 ---------- 
