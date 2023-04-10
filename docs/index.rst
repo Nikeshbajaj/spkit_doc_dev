@@ -50,6 +50,31 @@ Signal Processing Toolkit - Documentation!
 .. 
   -- Under preperation
  
+
+
+```{toctree}
+:caption: Getting started
+:hidden:
+
+installation
+```
+
+
+
+
+```{toctree}
+:maxdepth: 4
+:hidden:
+
+informationtheory
+dispersion_entropy
+atar_algo
+ica_artifact_algo
+```
+
+
+
+
 Getting started
 ----------
 
@@ -83,7 +108,6 @@ EEG Artifact Removal Algorithms
    :maxdepth: 4
    
    atar_algo
-   
    ica_artifact_algo
   
 

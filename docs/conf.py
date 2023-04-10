@@ -9,7 +9,7 @@ from typing import Any, Dict
 
 # add the demo python code to the path, so that it can be used to demonstrate
 # source links
-sys.path.append(os.path.abspath("./kitchen-sink/demo_py"))
+# sys.path.append(os.path.abspath("./kitchen-sink/demo_py"))
 
 # -- Project information -----------------------------------------------------
 #
@@ -71,7 +71,7 @@ myst_heading_anchors = 3
 #
 
 html_theme = "furo"
-html_title = "SpKit: Signal Processing Toolkit"
+html_title = "Signal Processing Toolkit"
 language = "en"
 
 
