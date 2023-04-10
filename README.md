@@ -1,2 +1,2 @@
-# spkit_devdoc
+# SpKit Documentation
  spkit documentation
