@@ -96,17 +96,15 @@ Information Theory
    :hidden:
    
    informationtheory
-
-
-Dispersion Entropy (time-series, physiological signals)
-----------   
-
-.. toctree::
-   :maxdepth: 3
-   :hidden:
-   
    dispersion_entropy
-   
+
+.. Dispersion Entropy (time-series, physiological signals)
+.. ----------   
+
+.. .. toctree::
+..    :maxdepth: 3
+..    :hidden:
+
    
 EEG Artifact Removal Algorithms
 ----------   
@@ -125,8 +123,6 @@ Multi-Electrode Arrays Processing: MEA
    :maxdepth: 3
    
    mea
-
-
 
 
   
@@ -157,10 +153,10 @@ Analysis and Synthesis Models
    analysis_synthesis_models
 
 
-DFT and STFT for Analysis and Synthesis of signals
----------- 
+.. DFT and STFT for Analysis and Synthesis of signals
+.. ---------- 
 
-#TODO
+.. #TODO
 
 Fractional Fourier Transform
 ---------- 
@@ -187,7 +183,7 @@ Wavelet Filtering
 .. toctree::
    :maxdepth: 2
    
-   wavelet_filtering.rst
+   wavelet_filtering
 
 
 
@@ -207,6 +203,8 @@ EEG Topographic Maps (Spatio-Temporal/Spectral)
    :maxdepth: 2
    
    eeg_topog
+
+
 
 Machine Learning
 ---------- 
